@@ -8,10 +8,9 @@
 		<!-- <gap:platform name="ios" /> -->
 		<!-- <gap:platform name="winphone" /> -->
 		<gap:platform name="android" />
-		<!-- 
 		<preference name="orientation" value="landscape" />
 		<preference name="fullscreen" value="true" />
-		-->
+
 		<!-- config supplémentaires pour android : -->
 		<!--
 		<gap:config-file platform="android" parent="/manifest" mode="replace">			

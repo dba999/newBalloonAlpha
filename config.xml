@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+		
+		<!-- <gap:platform name="ios" /> -->
+		<!-- <gap:platform name="winphone" /> -->
+		<gap:platform name="android" />
+		<!-- 
+		<preference name="orientation" value="landscape" />
+		<preference name="fullscreen" value="true" />
+		-->
+		<!-- config supplémentaires pour android : -->
+		<!--
+		<gap:config-file platform="android" parent="/manifest" mode="replace">			
+			<application android:debuggable="true" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name">
+				<activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name=".PGBuildApp" android:screenOrientation="userLandscape" android:windowSoftInputMode="adjustUnspecified|stateUnspecified">
+					<intent-filter>
+						<action android:name="android.intent.action.MAIN"/>
+						<category android:name="android.intent.category.LAUNCHER"/>
+					</intent-filter>
+				</activity>
+			</application>
+		</gap:config-file>
+		-->
+		
+		<!-- config supplémentaires pour ios : -->
+		<!--
+		<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" mode="replace">
+			<array>
+				<string>UIInterfaceOrientationLandscapeOmg</string>
+			</array>
+		</gap:config-file>
+		--> 
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap Example</name>
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Hardeep Shoker 
+    </author>
+
+</widget>
